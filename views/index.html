@@ -15,6 +15,12 @@
     <h1>URL Shortener Microservice</h1>
     <main>
       <section>
+        <h2>Explaination</h2>
+        <p>
+          Each URL is assigned an ID that when accessed, will redirect to the URL that the ID was assigned to.
+        </p>
+      </section>
+      <section>
         <form action="api/shorturl" method="POST">
           <fieldset>
             <legend>URL Shortener</legend>
@@ -23,10 +29,14 @@
             <input type="submit" value="POST URL" />
           </fieldset>
         </form>
+        <p>Format for accessing shorten URLs: 
+          <b>[this_project_url]/api/shorturl/[id]</b>
+        </p>
       </section>
     </main>
     <footer>
       <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+      <p>Modified by <a href="https://www.freecodecamp.org/">Lucas Chapman</a></p>
     </footer>
   </body>
 </html>
